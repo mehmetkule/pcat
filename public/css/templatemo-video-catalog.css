@@ -1,4 +1,4 @@
-/*
+/*tm-catalog-item
 
 TemplateMo 552 Video Catalog
 
@@ -214,7 +214,11 @@ h2, p { color: #666666; }
     flex-direction: column;
     margin-bottom: 64px;
 }
-
+.tm-catalog-item-img {
+    display: flex;
+    margin:  0 auto;
+    width: 50%;
+}
 .tm-thumbnail-container { overflow: hidden; }
 .tm-thumbnail-container img { transition: all 0.3s ease; }
 .tm-thumbnail-container:hover img { transform: scale(1.2) rotate(5deg); }
