@@ -69,7 +69,7 @@
                                 <% for (let i=1; i <= pages; i++) { %>
                                     <% if (i == page) { %>
                                     <li class="nav-item active"><a href="?page=<%= i %>" class="nav-link tm-paging-link"><%= i %></a></li>
-                                <% } else if (i < count) { %>
+                                <% } else if (i < pages) { %>
                                     <li class="nav-item"><a href="?page=<%= i %>" class="nav-link tm-paging-link"><%= i %></a></li>
                               <% } else { %>
                                 <li class="nav-item"><a href="?page=<%= i %>" class="nav-link tm-paging-link">></a></li>
